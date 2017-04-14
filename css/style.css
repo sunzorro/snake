@@ -1,0 +1,196 @@
+*{padding: 0;margin: 0;font-size: 12px;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0px;}
+.clear{overflow:hidden;zoom:1;clear:both;}
+
+input.button{
+	width: 60px;
+	cursor: pointer;
+}
+#content .keycode{
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+  height: auto;
+<<<<<<< HEAD
+}
+.keycode .keycodeM{position: relative;width: 100%;margin:0px auto;vertical-align: middle;padding:20px;box-sizing:border-box;}
+.keycode .keycodeM .stops{position: absolute;left:180px;top:20px;width: 20px;height: 20px;background-color: red;margin:0px auto;}
+.keycodeM .btn_t{position: absolute;left:180px;top: 0px;width: 20px;height: 20px;background-color: blue;}
+.keycodeM .btn_l{position: absolute;left:160px;top:20px;width: 20px;height: 20px;background-color:yellow;}
+.keycodeM .btn_r{position: absolute;left:200px;top:20px;width: 20px;height: 20px;background-color: green;}
+.keycodeM .btn_b{position: absolute;left:180px;top:40px;width: 20px;height: 20px;background-color: pink;}
+=======
+overflow:hidden;position: relative;
+}
+.keycode .keycodeM{width: 60%;overflow: hidden;margin:0px auto;vertical-align: middle;padding:20px;box-sizing:border-box;}
+.keycode .keycodeM .stops{width: 20px;height: 20px;background-color: red;position: relative;margin:0px auto;}
+.keycodeM .stops .btn_t{position: absolute;left:0px;top: -20px;width: 20px;height: 20px;background-color: blue;}
+.keycodeM .stops .btn_l{position: absolute;left:-20px;top:0px;width: 20px;height: 20px;background-color:yellow;}
+.keycodeM .stops .btn_r{position: absolute;right:-20px;bottom:0px;width: 20px;height: 20px;background-color: green;}
+.keycodeM .stops .btn_b{position: absolute;left:0px;bottom:-20px;width: 20px;height: 20px;background-color: pink;}
+>>>>>>> 9ea8c2b91ab2667e0fcc3fb58a1922555699635c
+.lowSpeed{width: 50px;height: 50px;background-color: #f600ff;opacity: .5;position: absolute;left: 0px;top: 0px;text-align: center;line-height: 50px;}
+.addSpeed{width: 50px;height: 50px;background-color: #f600ff;opacity: .5;position: absolute;right: 0px;top: 0px;text-align: center;line-height: 50px;}
+
+#content .keyTap{
+  width: 20%;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  box-shadow: 10px 10px 50px 20px #ccc inset;
+
+}
+#content .keyCo2{
+ float: left;
+}
+#info{
+  max-width:640px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+#info #score{
+	width: 21%;
+	height: 28px;
+	padding-left:24px;
+	display: inline-block;
+  box-sizing:border-box;
+	font-size: 14px;
+}
+#info form{
+  width: 60%;
+  height: 28px;
+	display:inline-block;
+}
+#form input{
+	vertical-align: middle;
+	margin-right: 5px
+}
+#main{
+	max-width: 640px;
+  width: 100%;
+	margin:0 auto;
+	position: relative;
+  /*border: 20px solid red;*/
+  margin-top: 20px;
+}
+#main div{
+
+	position: absolute;
+}
+#main #home{
+	width:100%;
+	/*height:100%;*/
+	background-color: #fff;
+  background:url(../images/bj.jpg) no-repeat 0 0;
+}
+#main #snakeOver{
+    width:43.75%;
+    height:3.1%;
+    background-color: #ccc;
+    position: relative;
+    left: 28.125%;
+    top:48.4375%;
+    display: none;
+}
+.l{
+	 -moz-transform:    rotate(0deg);
+     -o-transform:      rotate(0deg);
+     -webkit-transform: rotate(0deg);
+     transform:         rotate(0deg);
+     /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=1,
+            M12=0,
+            M21=0,
+            M22=1,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+  
+}
+.t{
+	 -moz-transform:    rotate(90deg);
+     -o-transform:      rotate(90deg);
+     -webkit-transform: rotate(90deg);
+     transform:         rotate(90deg);
+     /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-1.8369701987210297e-16, M12=-1, M21=1, M22=-1.8369701987210297e-16, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=-1.8369701987210297e-16,
+            M12=-1,
+            M21=1,
+            M22=-1.8369701987210297e-16,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+ 
+}
+.r{
+	 -moz-transform:    rotate(180deg);
+     -o-transform:      rotate(180deg);
+     -webkit-transform: rotate(180deg);
+     transform:         rotate(180deg);
+      /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=1.2246467991473532e-16, M21=-1.2246467991473532e-16, M22=-1, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=-1,
+            M12=1.2246467991473532e-16,
+            M21=-1.2246467991473532e-16,
+            M22=-1,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+
+}
+.b{
+	 -moz-transform:    rotate(270deg);
+     -o-transform:      rotate(270deg);
+     -webkit-transform: rotate(270deg);
+     transform:         rotate(270deg);
+     /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=6.123233995736766e-17, M12=1, M21=-1, M22=6.123233995736766e-17, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=6.123233995736766e-17,
+            M12=1,
+            M21=-1,
+            M22=6.123233995736766e-17,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+
+
+}
