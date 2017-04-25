@@ -1,7 +1,7 @@
 *{padding: 0;margin: 0;font-size: 12px;}
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0px;}
 .clear{overflow:hidden;zoom:1;clear:both;}
-
+body{background-color: #fefef2}
 input.button{
 	width: 60px;
 	cursor: pointer;
@@ -14,13 +14,13 @@ input.button{
 
 }
 .keycode .keycodeM{position: relative;width: 100%;margin:0px auto;vertical-align: middle;padding:20px;box-sizing:border-box;}
-.keycode .keycodeM .stops{position: absolute;left:45%;top:27%;width: 10%;height: 35px;background-color: red;margin:0px auto;}
-.keycodeM .btn_t{position: absolute;left:45%;top: -60%;width: 10%;height: 35px;background-color: blue;}
-.keycodeM .btn_l{position: absolute;left:35%;top:27%;width: 10%;height: 35px;background-color:yellow;}
-.keycodeM .btn_r{position: absolute;left:55%;top:27%;width: 10%;height: 35px;background-color: green;}
-.keycodeM .btn_b{position: absolute;left: 45%;top: 115%;width: 10%;height: 35px;background-color: pink;}
-.lowSpeed{width: 50px;height: 50px;background-color: #f600ff;opacity: .5;position: absolute;left: 0px;top: 0px;text-align: center;line-height: 50px;}
-.addSpeed{width: 50px;height: 50px;background-color: #f600ff;opacity: .5;position: absolute;right: 0px;top: 0px;text-align: center;line-height: 50px;}
+.keycode .keycodeM .stops{position: absolute;left:45%;top:27%;width: 10%;height: 35px;background-color: red;margin:0px auto;background: url(../images/stop.png) no-repeat;background-size: 100% 100%;}
+.keycodeM .btn_t{position: absolute;left:45%;top: -60%;width: 10%;height: 35px;background: url(../images/up.png) no-repeat;background-size: 100% 100%;}
+.keycodeM .btn_l{position: absolute;left:35%;top:27%;width: 10%;height: 35px;background: url(../images/left.png) no-repeat;background-size: 100% 100%;}
+.keycodeM .btn_r{position: absolute;left:55%;top:27%;width: 10%;height: 35px;background: url(../images/right.png) no-repeat;background-size: 100% 100%;}
+.keycodeM .btn_b{position: absolute;left: 45%;top: 115%;width: 10%;height: 35px;background: url(../images/bottom.png) no-repeat;background-size: 100% 100%;}
+.lowSpeed{width: 50px;height: 50px;background-color: #f600ff;opacity: .5;position: absolute;left: 0px;top: 0px;text-align: center;line-height: 50px;background: url(../images/lowspeed.png) no-repeat;background-size: 100% 100%;}
+.addSpeed{width: 50px;height: 50px;background-color: #f600ff;opacity: .5;position: absolute;right: 0px;top: 0px;text-align: center;line-height: 50px;background: url(../images/addspeed.png) no-repeat;background-size: 100% 100%;}
 
 #content .keyTap{
   width: 20%;
@@ -70,8 +70,7 @@ input.button{
 #main #home{
 	width:100%;
 	/*height:100%;*/
-	background-color: #fff;
-  background:url(../images/bj.jpg) no-repeat 0 0;
+ background: url(../images/lv.png) no-repeat;background-size: 100% 100%;
 }
 #main #snakeOver{
     width:43.75%;

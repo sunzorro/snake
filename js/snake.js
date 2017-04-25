@@ -48,15 +48,7 @@
 		 	})
 		 }
 
-	 	$('#stops').click(function(){
-	 		if(!stop){
-	 			clearInterval(timer);
-	 			stop  = true;
-	 		}else{
-	 			setInterval(timer);
-	 			stop = false;
-	 		}
-	 	})
+
 
 	 	$("#lowSpeed").click(function() {
 	 		speed  += 10;
